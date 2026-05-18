@@ -1,0 +1,1920 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+
+<!-- Pagina-titel en omschrijving -->
+<title>Gilles Bouw, verbouwing en renovatie in Woerden, Utrecht en Zeist</title>
+<meta name="description" content="Bel Michiel voor je verbouwing of renovatie in Woerden, Utrecht en Zeist. Eén ervaren vakman, eerlijke prijzen, je huis netjes opgeleverd." />
+<meta name="author" content="Gilles Bouw" />
+<link rel="canonical" href="https://gillesbouw.nl/" />
+
+<!-- Open Graph, voor nette preview bij delen via WhatsApp of social media -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:url" content="https://gillesbouw.nl/" />
+<meta property="og:title" content="Gilles Bouw, verbouwing en renovatie" />
+<meta property="og:description" content="Bel Michiel voor je verbouwing of renovatie in Woerden, Utrecht en Zeist." />
+<meta property="og:image" content="https://gillesbouw.nl/images/og-image.jpg" />
+<meta property="og:site_name" content="Gilles Bouw" />
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content="#14213d" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #14213d;
+    --ink-2: #1c2c52;
+    --ink-soft: #4a5577;
+    --cream: #f3ead3;
+    --cream-2: #ece1c2;
+    --paper: #faf6ec;
+    --paper-2: #f5efe0;
+    --line: #d9cfb4;
+    --line-soft: #e7dec6;
+    --accent: #f59417;
+    --accent-hover: #e88410;
+    --shadow: 0 30px 80px -40px rgba(20,33,61,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Inter Tight", system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 17px;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+  ::selection { background: var(--ink); color: var(--cream); }
+
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+  @media (max-width: 720px) { .wrap { padding: 0 24px; } }
+
+  h1, h2, h3, h4 {
+    font-family: "Bricolage Grotesque", serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .serif-it { font-family: "Instrument Serif", serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
+
+  /* ---------- NAV ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    background: rgba(250,246,236,.78);
+    border-bottom: 1px solid transparent;
+    transition: border-color .3s, background .3s;
+  }
+  .nav.is-stuck { border-color: var(--line-soft); }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 76px;
+  }
+  .logo {
+    display: flex; align-items: center;
+    text-decoration: none; color: var(--ink);
+  }
+  .logo img {
+    height: 52px;
+    width: auto;
+    display: block;
+  }
+  .nav-links { display: flex; gap: 36px; }
+  .nav-links a {
+    color: var(--ink); text-decoration: none;
+    font-size: 15px; font-weight: 500;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -6px;
+    height: 1px; background: var(--ink); transform: scaleX(0);
+    transform-origin: left; transition: transform .35s cubic-bezier(.6,.05,.2,1);
+  }
+  .nav-links a:hover::after { transform: scaleX(1); }
+  @media (max-width: 760px) { .nav-links { display: none; } }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 12px 22px;
+    background: var(--ink); color: var(--cream);
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px; font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .25s, background .25s;
+  }
+  .btn:hover { transform: translateY(-2px); background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn .arr { display: inline-block; transition: transform .3s; }
+  .btn:hover .arr { transform: translateX(4px); }
+  .btn-ghost {
+    background: transparent; color: var(--ink);
+    border-color: var(--ink);
+  }
+  .btn-ghost:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* Animated orange beam traveling around the border */
+  .btn-offerte {
+    position: relative;
+    background: transparent !important;
+    border-color: transparent !important;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .btn-offerte:hover { background: transparent !important; }
+  .btn-offerte .beam-fill,
+  .btn-offerte .beam-spin {
+    position: absolute;
+    pointer-events: none;
+  }
+  /* Huge rotating conic gradient — clipped by the pill via overflow:hidden */
+  .btn-offerte .beam-spin {
+    inset: -100%;
+    background: conic-gradient(
+      from 0deg,
+      transparent 0deg,
+      transparent 250deg,
+      rgba(255,155,0,0.4) 295deg,
+      #FFB347 335deg,
+      #FFE7B8 352deg,
+      #FFFFFF 358deg,
+      #FFFFFF 2deg,
+      #FFE7B8 8deg,
+      #FFB347 25deg,
+      rgba(255,155,0,0.4) 65deg,
+      transparent 110deg,
+      transparent 360deg
+    );
+    animation: beam-rotate 2.6s linear infinite;
+    will-change: transform;
+  }
+  /* Dark inner fill — leaves a 2px ring of the spinning gradient visible */
+  .btn-offerte .beam-fill {
+    inset: 2px;
+    border-radius: 999px;
+    background: var(--ink);
+    transition: background .25s;
+  }
+  .btn-offerte:hover .beam-fill { background: var(--accent); }
+  /* Lift label above the fill */
+  .btn-offerte > :not(.beam-spin):not(.beam-fill) {
+    position: relative;
+    z-index: 2;
+  }
+  @keyframes beam-rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    padding: 60px 0 80px;
+    overflow: hidden;
+  }
+
+  /* House watermark (animation 08) */
+  .hero-watermark {
+    position: absolute;
+    right: -40px;
+    bottom: -80px;
+    width: 540px;
+    height: 380px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: .55;
+  }
+  .hero-watermark svg { width: 100%; height: 100%; }
+  .hero-watermark path, .hero-watermark line, .hero-watermark rect {
+    fill: none;
+    stroke: var(--cream-2);
+    stroke-width: 1.5;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 1200;
+    animation: drawLoop 10s ease-in-out infinite;
+  }
+  .hero-watermark .d1 { animation-delay: -9s; }
+  .hero-watermark .d2 { animation-delay: -8.5s; }
+  .hero-watermark .d3 { animation-delay: -8s; }
+  .hero-watermark .d4 { animation-delay: -7.5s; }
+  .hero-watermark .d5 { animation-delay: -7s; }
+  .hero-watermark .d6 { animation-delay: -6.5s; }
+  @keyframes drawLoop {
+    0%   { stroke-dashoffset: 1200; }
+    44%, 56% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: -1200; }
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+  @media (max-width: 920px) {
+    .hero-watermark { opacity: .3; right: -120px; bottom: -120px; width: 380px; height: 260px; }
+  }
+
+  /* Plumb line in proces section (animation 06) */
+  .proces-plumb {
+    position: absolute;
+    top: 100px;
+    right: 6%;
+    width: 1px;
+    height: 140px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .proces-plumb .anchor {
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: 12px; height: 4px;
+    background: rgba(243,234,211,.4);
+  }
+  .proces-plumb .string-wrap {
+    position: absolute;
+    top: 4px; left: 50%;
+    width: 1px;
+    height: 100%;
+    transform-origin: top center;
+    animation: pendulum 9s ease-in-out infinite;
+  }
+  .proces-plumb .string {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1px;
+    height: 110px;
+    background: rgba(243,234,211,.35);
+  }
+  .proces-plumb .weight {
+    position: absolute;
+    bottom: 0; left: 50%; transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid rgba(243,234,211,.4);
+  }
+  .proces-plumb .label {
+    position: absolute;
+    top: -22px; left: 50%; transform: translateX(-50%);
+    font-family: ui-monospace, monospace;
+    font-size: 10px;
+    color: rgba(243,234,211,.45);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  @keyframes pendulum {
+    0%, 100% { transform: rotate(-1.5deg); }
+    50% { transform: rotate(1.5deg); }
+  }
+  @media (max-width: 920px) { .proces-plumb { display: none; } }
+
+  /* Screw constellation behind contact (animation 04) */
+  .contact { position: relative; overflow: hidden; }
+  .contact-stars { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+  .contact-stars .star {
+    position: absolute;
+    color: var(--ink);
+  }
+  .contact-stars .dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: .12;
+  }
+  .contact-stars .cross {
+    width: 10px; height: 10px;
+    opacity: .14;
+  }
+  .contact-stars .cross::before, .contact-stars .cross::after {
+    content: ""; position: absolute;
+    background: currentColor;
+  }
+  .contact-stars .cross::before { left: 50%; top: 0; bottom: 0; width: 1.2px; transform: translateX(-50%); }
+  .contact-stars .cross::after { top: 50%; left: 0; right: 0; height: 1.2px; transform: translateY(-50%); }
+  .contact .wrap { position: relative; z-index: 1; }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 60px;
+    align-items: center;
+    min-height: 70vh;
+  }
+  @media (max-width: 920px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-size: 13px; font-weight: 500; letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 28px;
+  }
+  .eyebrow .dot {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--ink);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: .4; transform: scale(.8); }
+  }
+  .hero h1 {
+    font-size: clamp(48px, 7vw, 96px);
+    line-height: 0.95;
+    margin-bottom: 28px;
+  }
+  .hero h1 .accent {
+    display: inline-block;
+    position: relative;
+  }
+  .hero h1 .underline {
+    position: absolute; left: 0; right: 0; bottom: 8px;
+    height: 14px; background: var(--accent);
+    z-index: -1; border-radius: 2px;
+  }
+  .hero-lede {
+    font-size: 20px;
+    color: var(--ink-soft);
+    max-width: 520px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+  .hero-meta {
+    margin-top: 56px;
+    display: flex; gap: 48px; flex-wrap: wrap;
+  }
+  .stat {
+    display: flex; flex-direction: column; gap: 2px;
+  }
+  .stat-num {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 38px; font-weight: 600; line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .stat-label {
+    font-size: 13px; color: var(--ink-soft);
+    letter-spacing: 0.04em; text-transform: uppercase;
+  }
+
+  /* ---------- HERO ART (image) ---------- */
+  .hero-art {
+    position: relative;
+    aspect-ratio: 1 / 1.05;
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--cream);
+    cursor: pointer;
+  }
+  .hero-img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: 62% center;
+    transform: scale(1.05);
+    animation: kenburns 22s ease-in-out infinite alternate;
+    filter: saturate(.92) contrast(1.02);
+    transition: filter .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1);
+    will-change: transform;
+  }
+  @keyframes kenburns {
+    0%   { transform: scale(1.05) translate(0, 0); }
+    100% { transform: scale(1.18) translate(-2%, -1%); }
+  }
+  .hero-art:hover .hero-img {
+    filter: saturate(1.1) contrast(1.05);
+    animation-play-state: paused;
+    transform: scale(1.22) translate(-3%, -1.5%);
+  }
+
+  /* tint overlay */
+  .hero-tint {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(20,33,61,.15) 0%, rgba(20,33,61,0) 35%, rgba(20,33,61,.45) 100%);
+    pointer-events: none;
+  }
+
+  /* grain / texture overlay */
+  .hero-grain {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(20,33,61,.08) 1px, transparent 1px);
+    background-size: 3px 3px;
+    mix-blend-mode: multiply;
+    opacity: .35;
+    pointer-events: none;
+  }
+
+  /* corner ticks */
+  .hero-ticks { position: absolute; inset: 14px; pointer-events: none; }
+  .hero-ticks::before, .hero-ticks::after {
+    content: ""; position: absolute; width: 22px; height: 22px;
+    border: 1.5px solid var(--cream);
+  }
+  .hero-ticks::before { top: 0; left: 0; border-right: none; border-bottom: none; }
+  .hero-ticks::after  { bottom: 0; right: 0; border-left: none; border-top: none; }
+
+  /* live tag */
+  .scene-tag {
+    position: absolute; top: 24px; left: 24px;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--paper); padding: 8px 14px;
+    border: 1px solid var(--ink); border-radius: 999px;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    z-index: 3;
+  }
+  .scene-tag .live {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--ink); animation: pulse 1.8s infinite;
+  }
+
+  /* rollover label that slides up on hover */
+  .hero-rollover {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 22px 26px 24px;
+    color: var(--cream);
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 16px;
+    transform: translateY(100%);
+    transition: transform .6s cubic-bezier(.2,.7,.2,1);
+    background: linear-gradient(180deg, transparent, rgba(20,33,61,.78));
+    z-index: 2;
+  }
+  .hero-art:hover .hero-rollover { transform: translateY(0); }
+  .hero-rollover .ro-cat {
+    font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+    opacity: .75; margin-bottom: 6px;
+  }
+  .hero-rollover .ro-title {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 22px; font-weight: 500; line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .hero-rollover .ro-arrow {
+    flex-shrink: 0;
+    width: 44px; height: 44px; border-radius: 50%;
+    border: 1px solid var(--cream);
+    display: grid; place-items: center;
+    font-size: 18px;
+    transition: transform .3s;
+  }
+  .hero-art:hover .hero-rollover .ro-arrow { transform: rotate(-45deg); }
+
+  /* ---------- MARQUEE ---------- */
+  .marquee {
+    border-top: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    overflow: hidden;
+    background: var(--paper);
+    padding: 22px 0;
+    position: relative;
+  }
+  .marquee::before, .marquee::after {
+    content: ""; position: absolute; top: 0; bottom: 0; width: 120px; z-index: 2;
+    pointer-events: none;
+  }
+  .marquee::before { left: 0; background: linear-gradient(to right, var(--paper), transparent); }
+  .marquee::after { right: 0; background: linear-gradient(to left, var(--paper), transparent); }
+  .marquee-track {
+    display: flex; gap: 64px;
+    animation: scroll 38s linear infinite;
+    width: max-content;
+  }
+  .marquee-item {
+    display: flex; align-items: center; gap: 14px;
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 22px; font-weight: 500;
+    line-height: 1;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+  .marquee-item .sep {
+    width: 7px; height: 7px;
+    background: var(--ink);
+    transform: translate(25px, 0.08em) rotate(45deg);
+    flex-shrink: 0;
+  }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ---------- SECTIONS ---------- */
+  section { padding: 130px 0; position: relative; }
+  @media (max-width: 720px) { section { padding: 90px 0; } }
+
+  .section-head {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    gap: 40px; margin-bottom: 70px;
+  }
+  .section-head .left { max-width: 620px; }
+  .section-num {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 13px; font-weight: 500;
+    color: var(--ink-soft); letter-spacing: 0.08em;
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 22px;
+  }
+  .section-num::before {
+    content: ""; width: 28px; height: 1px; background: var(--ink);
+  }
+  .section-head h2 {
+    font-size: clamp(36px, 5vw, 60px);
+    line-height: 1;
+  }
+  .section-head .right {
+    max-width: 360px;
+    color: var(--ink-soft);
+    padding-bottom: 8px;
+  }
+  @media (max-width: 760px) {
+    .section-head { flex-direction: column; align-items: flex-start; margin-bottom: 48px; }
+    .section-head .right { padding-bottom: 0; }
+  }
+
+  /* ---------- DIENSTEN ---------- */
+
+  /* CAD chain + total measurement around services */
+  @keyframes dimCycle {
+    0%, 5%   { opacity: 0; transform: translateY(6px); }
+    18%, 78% { opacity: 1; transform: translateY(0); }
+    90%, 100%{ opacity: 0; transform: translateY(0); }
+  }
+  .dim-chain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 38px;
+    align-items: end;
+    margin-bottom: 0;
+    position: relative;
+  }
+  /* baseline at bottom — looping measure */
+  .dim-chain::after {
+    content: "";
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 1px;
+    width: 0;
+    background: var(--ink);
+    animation: measureLine 7s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .dim-chain.in-view::after { animation-play-state: running; }
+  @keyframes measureLine {
+    0%   { width: 0; }
+    30%, 80% { width: 100%; }
+    100% { width: 0; }
+  }
+
+  .dim-chain .scan-dot {
+    position: absolute;
+    bottom: -3px; left: 0;
+    width: 7px; height: 7px;
+    background: var(--accent);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    box-shadow: 0 0 0 3px rgba(245,148,23,.18);
+    z-index: 3;
+    animation: measureDot 7s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .dim-chain.in-view .scan-dot { animation-play-state: running; }
+  @keyframes measureDot {
+    0%, 4%   { left: 0; opacity: 0; }
+    8%      { opacity: 1; }
+    30%     { left: 100%; opacity: 1; }
+    78%     { left: 100%; opacity: 1; }
+    82%, 100% { opacity: 0; }
+  }
+
+  .dim-seg {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .dim-seg span {
+    font-family: ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    letter-spacing: .08em;
+    opacity: 0;
+    animation: labelFade 7s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .dim-chain.in-view .dim-seg span { animation-play-state: running; }
+  .dim-chain .dim-seg:nth-child(1) span { animation-delay: .8s; }
+  .dim-chain .dim-seg:nth-child(2) span { animation-delay: 1.4s; }
+  .dim-chain .dim-seg:nth-child(3) span { animation-delay: 2s; }
+  @keyframes labelFade {
+    0%, 8%  { opacity: 0; transform: translateY(4px); }
+    15%, 76% { opacity: 1; transform: translateY(0); }
+    83%, 100% { opacity: 0; }
+  }
+
+  /* tick marks pop in as the scan dot passes */
+  .dim-seg::before {
+    content: "";
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 1px; height: 0;
+    background: var(--ink);
+    animation: tickPop 7s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .dim-seg:last-child::after {
+    content: "";
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 1px; height: 0;
+    background: var(--ink);
+    animation: tickPop 7s ease-in-out infinite;
+    animation-play-state: paused;
+    animation-delay: 2.1s;
+  }
+  .dim-chain.in-view .dim-seg::before,
+  .dim-chain.in-view .dim-seg:last-child::after { animation-play-state: running; }
+  .dim-chain .dim-seg:nth-child(1)::before { animation-delay: 0s; }
+  .dim-chain .dim-seg:nth-child(2)::before { animation-delay: .7s; }
+  .dim-chain .dim-seg:nth-child(3)::before { animation-delay: 1.4s; }
+  @keyframes tickPop {
+    0%, 2%  { height: 0; }
+    7%, 78% { height: 9px; }
+    85%, 100% { height: 0; }
+  }
+
+  .dim-total {
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dim-total .line {
+    position: absolute;
+    top: 14px; left: 0;
+    height: 1.5px;
+    width: 0;
+    background: var(--accent);
+    animation: measureLineTotal 7s ease-in-out infinite;
+    animation-delay: 1s;
+    animation-play-state: paused;
+  }
+  .dim-total.in-view .line { animation-play-state: running; }
+  @keyframes measureLineTotal {
+    0%, 8%   { width: 0; }
+    32%, 80% { width: 100%; }
+    100%     { width: 0; }
+  }
+
+  .dim-total::before, .dim-total::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    width: 1px; height: 0;
+    background: var(--accent);
+    animation: tickPopAccent 7s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .dim-total::before { left: 0; animation-delay: 1.2s; }
+  .dim-total::after  { right: 0; animation-delay: 3.1s; }
+  .dim-total.in-view::before, .dim-total.in-view::after { animation-play-state: running; }
+  @keyframes tickPopAccent {
+    0%, 2%  { height: 0; }
+    8%, 78% { height: 13px; }
+    85%, 100% { height: 0; }
+  }
+
+  .dim-total .scan-dot {
+    position: absolute;
+    top: 14px; left: 0;
+    width: 7px; height: 7px;
+    background: var(--accent);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    box-shadow: 0 0 0 3px rgba(245,148,23,.18);
+    z-index: 3;
+    animation: measureDotTotal 7s ease-in-out infinite;
+    animation-delay: 1s;
+    animation-play-state: paused;
+  }
+  .dim-total.in-view .scan-dot { animation-play-state: running; }
+  @keyframes measureDotTotal {
+    0%, 6%  { left: 0; opacity: 0; }
+    10%     { opacity: 1; }
+    32%     { left: 100%; opacity: 1; }
+    78%     { left: 100%; opacity: 1; }
+    82%, 100% { opacity: 0; }
+  }
+
+  .dim-total .label {
+    font-family: ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    background: var(--paper);
+    padding: 0 14px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    animation: labelFade 7s ease-in-out infinite;
+    animation-play-state: paused;
+    animation-delay: 3.3s;
+  }
+  .dim-total.in-view .label { animation-play-state: running; }
+
+  @media (max-width: 900px) {
+    .dim-chain { display: none; }
+    .dim-total { padding-top: 22px; }
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    position: relative;
+    border-bottom: 1px solid var(--ink);
+  }
+  /* top border draws in left-to-right */
+  .services::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 1px;
+    width: 0;
+    background: var(--ink);
+    transition: width 2.2s cubic-bezier(.7,.0,.3,1);
+    z-index: 2;
+  }
+  .services.in-view::before { width: 100%; }
+  .service {
+    padding: 40px 32px 36px;
+    border-right: 1px solid var(--ink);
+    position: relative;
+    background: var(--paper);
+    transition: background .35s;
+    min-height: 360px;
+    display: flex; flex-direction: column;
+  }
+  .service:last-child { border-right: none; }
+  .service:hover { background: var(--cream); }
+  .service .ico {
+    width: 64px; height: 64px;
+    margin-bottom: 28px;
+  }
+  .service h3 {
+    font-size: 26px; margin-bottom: 14px;
+  }
+  .service p {
+    color: var(--ink-soft); font-size: 15px;
+    margin: 0 0 24px 0;
+  }
+  .service ul {
+    list-style: none; padding: 0; margin: auto 0 0 0;
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+  }
+  .service li {
+    font-size: 14px; color: var(--ink);
+    padding: 6px 0;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .service li::before {
+    content: "+"; color: var(--ink-soft); font-weight: 500;
+  }
+  @media (max-width: 900px) {
+    .services { grid-template-columns: 1fr; }
+    .service { border-right: none; border-bottom: 1px solid var(--ink); min-height: auto; }
+    .service:last-child { border-bottom: none; }
+  }
+
+  /* ---------- PROJECTEN ---------- */
+  .projects {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 32px;
+    position: relative;
+  }
+
+  /* === Project scan line (E) === */
+  .projects::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--accent), transparent);
+    pointer-events: none;
+    z-index: 4;
+    opacity: 0;
+    animation: projScan 8s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .projects.in-view::after { animation-play-state: running; }
+  @keyframes projScan {
+    0%   { top: 0;    opacity: 0; }
+    8%   { opacity: .9; }
+    50%  { top: 100%; opacity: .9; }
+    58%, 100% { opacity: 0; }
+  }
+
+  /* === Project crosshair (F) === */
+  .proj-crosshair {
+    position: absolute;
+    width: 48px; height: 48px;
+    pointer-events: none;
+    z-index: 5;
+    opacity: 1;
+    top: 40%; left: 22%;
+    transition: top 1.4s cubic-bezier(.5,.0,.3,1), left 1.4s cubic-bezier(.5,.0,.3,1);
+  }
+  .proj-crosshair::before, .proj-crosshair::after {
+    content: ""; position: absolute;
+    background: var(--cream);
+  }
+  .proj-crosshair::before { top: 50%; left: 0; right: 0; height: 1px; }
+  .proj-crosshair::after  { left: 50%; top: 0; bottom: 0; width: 1px; }
+  .proj-crosshair span {
+    position: absolute;
+    inset: 32%;
+    border: 1.5px solid var(--cream);
+    border-radius: 50%;
+    animation: projHairPulse 1.8s ease-in-out infinite;
+  }
+  @keyframes projHairPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: .3; }
+  }
+  @keyframes projHopFade {
+    0%, 4%   { opacity: 0; }
+    8%, 92%  { opacity: 1; }
+    98%, 100% { opacity: 0; }
+  }
+  @keyframes projHop {
+    /* card 1 (tall left): 0-25%  | card 2 (top right): 33-58% | card 3 (bottom right): 66-91% */
+    0%, 25%  { top: 40%; left: 22%; }
+    33%, 58% { top: 22%; left: 70%; }
+    66%, 91% { top: 70%; left: 70%; }
+    100%     { top: 40%; left: 22%; }
+  }
+
+  /* === Corner brackets per project (A) — always visible === */
+  .project .corner {
+    position: absolute;
+    width: 16px; height: 16px;
+    border: 1.5px solid var(--accent);
+    pointer-events: none;
+    z-index: 4;
+    opacity: 1;
+  }
+  .project .corner.tl { top: 10px; left: 10px; border-right: none; border-bottom: none; }
+  .project .corner.tr { top: 10px; right: 10px; border-left: none; border-bottom: none; }
+  .project .corner.bl { bottom: 10px; left: 10px; border-right: none; border-top: none; }
+  .project .corner.br { bottom: 10px; right: 10px; border-left: none; border-top: none; }
+
+  /* coords readout — always visible */
+  .proj-coords {
+    position: absolute;
+    top: -28px; right: 4px;
+    font-family: ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    background: var(--paper-2);
+    padding: 2px 8px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    z-index: 5;
+    opacity: 1;
+  }
+  .project {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    aspect-ratio: 4 / 3;
+    cursor: pointer;
+  }
+  .project.tall { grid-row: span 2; aspect-ratio: 4 / 5; }
+  .project-img {
+    position: absolute; inset: 0;
+    background: var(--cream-2);
+  }
+  .project-room { position: absolute; inset: 0; }
+  .project-photo {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transform: scale(1.05);
+    animation: kenburns-p 26s ease-in-out infinite alternate;
+    filter: saturate(.92) contrast(1.02);
+    transition: filter .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1);
+    will-change: transform;
+  }
+  @keyframes kenburns-p {
+    0%   { transform: scale(1.05) translate(0, 0); }
+    100% { transform: scale(1.18) translate(-2%, 1%); }
+  }
+  .project:hover .project-photo {
+    animation-play-state: paused;
+    transform: scale(1.22) translate(-2%, 1%);
+    filter: saturate(1.1) contrast(1.05);
+  }
+  .project-shade {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(20,33,61,.05) 0%, rgba(20,33,61,0) 30%, rgba(20,33,61,.35) 100%);
+    pointer-events: none;
+    transition: opacity .5s;
+  }
+  .project:hover .project-shade { opacity: .4; }
+  .project-overlay {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 28px;
+    background: linear-gradient(to top, rgba(20,33,61,.92), transparent);
+    color: var(--cream);
+    transform: translateY(0);
+    transition: transform .5s cubic-bezier(.6,.05,.2,1);
+  }
+  .project:hover .project-overlay { transform: translateY(0); }
+  .project-overlay p,
+  .project-overlay .meta {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(.6,.05,.2,1), opacity .35s ease, margin .5s cubic-bezier(.6,.05,.2,1);
+    margin-top: 0;
+  }
+  .project:hover .project-overlay p {
+    max-height: 80px;
+    opacity: .85;
+    margin-top: 12px;
+  }
+  .project:hover .project-overlay .meta {
+    max-height: 30px;
+    opacity: .8;
+    margin-top: 16px;
+  }
+  .project-overlay .cat {
+    font-size: 12px; letter-spacing: 0.08em;
+    text-transform: uppercase; opacity: .7;
+    margin-bottom: 8px;
+  }
+  .project-overlay h3 {
+    font-size: 28px; font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .project-overlay p {
+    font-size: 14px; margin: 0;
+    max-width: 380px;
+  }
+  .project-overlay .meta {
+    display: flex; gap: 18px; font-size: 12px;
+    letter-spacing: 0.06em; text-transform: uppercase;
+  }
+
+  .placeholder-stripes {
+    position: absolute; inset: 0;
+    background-image: repeating-linear-gradient(135deg,
+      var(--cream-2) 0, var(--cream-2) 14px,
+      var(--cream) 14px, var(--cream) 28px);
+  }
+  .placeholder-label {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--paper);
+    border: 1px solid var(--ink);
+    padding: 8px 14px;
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 900px) {
+    .projects { grid-template-columns: 1fr; }
+    .project.tall { grid-row: auto; aspect-ratio: 4 / 3; }
+  }
+
+  /* ---------- PROCES ---------- */
+  .proces-section { background: var(--ink); color: var(--cream); }
+  .proces-section .section-head h2 { color: var(--cream); }
+  .proces-section .section-num { color: rgba(243,234,211,.6); }
+  .proces-section .section-num::before { background: var(--cream); }
+  .proces-section .section-head .right { color: rgba(243,234,211,.7); }
+
+  .proces-list {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid rgba(243,234,211,.2);
+  }
+  .step {
+    padding: 36px 28px 36px 0;
+    border-right: 1px solid rgba(243,234,211,.2);
+    position: relative;
+  }
+  .step:last-child { border-right: none; }
+  .step:not(:first-child) { padding-left: 28px; }
+  .step-num {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 56px; font-weight: 500;
+    line-height: 1;
+    color: var(--cream);
+    margin-bottom: 24px;
+    opacity: .4;
+  }
+  .step h3 {
+    color: var(--cream);
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .step p {
+    color: rgba(243,234,211,.7); font-size: 14px;
+    line-height: 1.55;
+  }
+  @media (max-width: 900px) {
+    .proces-list { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .proces-list { grid-template-columns: 1fr; }
+    .step { border-right: none; border-bottom: 1px solid rgba(243,234,211,.2); padding: 28px 0; }
+    .step:not(:first-child) { padding-left: 0; }
+  }
+
+  /* ---------- TESTIMONIAL ---------- */
+  .quote-block {
+    padding: 110px 0;
+    border-top: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    position: relative;
+  }
+  .quote-block .wrap { max-width: 1000px; position: relative; }
+
+  /* Checkmark badge — top right */
+  .quote-check {
+    position: absolute;
+    top: 0; right: 0;
+    width: 64px; height: 64px;
+    border: 2px solid #1f8a5b;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    background: var(--paper);
+    opacity: 0;
+    transform: scale(.8);
+    animation: checkPop 3s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .quote-check svg { width: 36px; height: 36px; }
+  .quote-check svg path {
+    fill: none;
+    stroke: #1f8a5b;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    animation: checkDraw 3s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .quote-block.in-view .quote-check,
+  .quote-block.in-view .quote-check svg path { animation-play-state: running; }
+  @keyframes checkPop {
+    0%   { opacity: 0; transform: scale(.8); }
+    33%, 100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes checkDraw {
+    0%, 10% { stroke-dashoffset: 60; }
+    33%, 100% { stroke-dashoffset: 0; }
+  }
+
+  /* 5 stars under quote — right side */
+  .quote-stars {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    width: max-content;
+    margin-top: 32px;
+  }
+  .quote-stars .star {
+    width: 26px; height: 26px;
+    position: relative;
+    line-height: 1;
+  }
+  .quote-stars .star::before, .quote-stars .star::after {
+    content: "★";
+    position: absolute;
+    inset: 0;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+  }
+  .quote-stars .star::before { color: var(--line); }
+  .quote-stars .star::after {
+    color: var(--accent);
+    width: 0;
+    overflow: hidden;
+    animation: starFillLoop 3s ease-in-out infinite;
+    animation-play-state: paused;
+  }
+  .quote-block.in-view .quote-stars .star::after { animation-play-state: running; }
+  .quote-stars .star:nth-child(1)::after { animation-delay: 0s; }
+  .quote-stars .star:nth-child(2)::after { animation-delay: .12s; }
+  .quote-stars .star:nth-child(3)::after { animation-delay: .24s; }
+  .quote-stars .star:nth-child(4)::after { animation-delay: .36s; }
+  .quote-stars .star:nth-child(5)::after { animation-delay: .48s; }
+  @keyframes starFillLoop {
+    0%   { width: 0; }
+    25%, 100% { width: 100%; }
+  }
+
+  @media (max-width: 760px) {
+    .quote-check { width: 48px; height: 48px; }
+    .quote-check svg { width: 26px; height: 26px; }
+    .quote-stars .star { width: 22px; height: 22px; }
+    .quote-stars .star::before, .quote-stars .star::after { font-size: 22px; }
+  }
+  .big-quote {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: clamp(32px, 4.4vw, 56px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  .big-quote .serif-it { color: var(--ink); }
+  .quote-attr {
+    margin-top: 40px;
+    display: flex; align-items: center; gap: 16px;
+    color: var(--ink-soft); font-size: 14px;
+  }
+  .quote-attr > .quote-stars { margin-top: 0; }
+  .quote-attr .av {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--cream-2); border: 1px solid var(--line);
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contact-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+    align-items: start;
+  }
+  @media (max-width: 880px) { .contact-grid { grid-template-columns: 1fr; gap: 50px; } }
+  .contact h2 {
+    font-size: clamp(40px, 5.5vw, 72px);
+    line-height: 1; margin-bottom: 28px;
+  }
+  .contact-info {
+    margin-top: 40px;
+    display: grid; gap: 26px;
+  }
+  .ci-row {
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .ci-label {
+    font-size: 12px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-soft);
+  }
+  .ci-value {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 22px; font-weight: 500;
+    color: var(--ink); text-decoration: none;
+  }
+  .ci-value:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+  .form {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 40px;
+  }
+  .form-row { display: grid; gap: 16px; margin-bottom: 18px; }
+  .form-row.two { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 560px) { .form-row.two { grid-template-columns: 1fr; } }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label {
+    font-size: 12px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--ink-soft);
+  }
+  .field input, .field textarea, .field select {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--ink);
+    padding: 10px 0;
+    font-family: inherit;
+    font-size: 16px;
+    color: var(--ink);
+    outline: none;
+    border-radius: 0;
+  }
+  .field textarea { min-height: 90px; resize: vertical; }
+  .field input:focus, .field textarea:focus, .field select:focus {
+    border-bottom-color: var(--ink);
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .chip {
+    padding: 8px 14px;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    font-size: 13px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    font-family: inherit;
+    transition: background .2s, color .2s;
+  }
+  .chip.active, .chip:hover { background: var(--ink); color: var(--cream); }
+  .form-submit { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; }
+  .form-submit .small { font-size: 13px; color: var(--ink-soft); }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    background: var(--ink); color: var(--cream);
+    padding: 80px 0 36px;
+  }
+  .foot-top {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px; margin-bottom: 80px;
+  }
+  @media (max-width: 880px) { .foot-top { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .foot-top { grid-template-columns: 1fr; } }
+  .foot-brand {
+    color: var(--cream);
+    display: flex; align-items: flex-start;
+  }
+  .foot-logo-card {
+    background: var(--cream);
+    padding: 26px 32px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 360px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .foot-logo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .foot-col h4 {
+    font-size: 13px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: rgba(243,234,211,.55);
+    margin-bottom: 16px; font-weight: 500;
+    font-family: "Inter Tight", sans-serif;
+  }
+  .foot-col a, .foot-col p {
+    display: block;
+    color: var(--cream); text-decoration: none;
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    opacity: .85;
+  }
+  .foot-col a:hover { opacity: 1; }
+  .foot-bottom {
+    border-top: 1px solid rgba(243,234,211,.15);
+    padding-top: 28px;
+    display: flex; justify-content: space-between;
+    color: rgba(243,234,211,.5);
+    font-size: 13px;
+  }
+
+  /* ---------- ROOM SVG STYLES ---------- */
+  .room-paint .roller {
+    transform-origin: 50px 60px;
+    animation: roll 2.4s ease-in-out infinite;
+  }
+  @keyframes roll {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+  }
+  .room-paint .paint-trail {
+    animation: trail 2.4s ease-in-out infinite;
+  }
+  @keyframes trail {
+    0%, 100% { transform: scaleY(0); }
+    50% { transform: scaleY(1); }
+  }
+  .room-build .saw {
+    transform-origin: center;
+    animation: saw 1.2s ease-in-out infinite;
+  }
+  @keyframes saw {
+    0%, 100% { transform: translateX(-6px); }
+    50% { transform: translateX(6px); }
+  }
+  .room-measure .tape-arm {
+    transform-origin: 36px 70px;
+    animation: measure 3s ease-in-out infinite;
+  }
+  @keyframes measure {
+    0%, 100% { transform: rotate(0); }
+    50% { transform: rotate(-8deg); }
+  }
+  .lamp {
+    transform-origin: top center;
+    animation: lamp 4s ease-in-out infinite;
+  }
+  @keyframes lamp {
+    0%, 100% { transform: rotate(-1.5deg); }
+    50% { transform: rotate(1.5deg); }
+  }
+
+  /* ---------- REVEAL ANIMATIONS ---------- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1);
+  }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .reveal-stagger > * {
+    opacity: 0; transform: translateY(28px);
+    transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1);
+  }
+  .reveal-stagger.in > *:nth-child(1) { transition-delay: 0s; }
+  .reveal-stagger.in > *:nth-child(2) { transition-delay: .08s; }
+  .reveal-stagger.in > *:nth-child(3) { transition-delay: .16s; }
+  .reveal-stagger.in > *:nth-child(4) { transition-delay: .24s; }
+  .reveal-stagger.in > * { opacity: 1; transform: translateY(0); }
+
+  .word-rise { display: inline-block; overflow: hidden; vertical-align: bottom; }
+  .word-rise span {
+    display: inline-block; transform: translateY(110%);
+    transition: transform 1s cubic-bezier(.2,.7,.2,1);
+  }
+  .word-rise.in span { transform: translateY(0); }
+  .word-rise:nth-of-type(2) span { transition-delay: .08s; }
+  .word-rise:nth-of-type(3) span { transition-delay: .16s; }
+  .word-rise:nth-of-type(4) span { transition-delay: .24s; }
+  .word-rise:nth-of-type(5) span { transition-delay: .32s; }
+  .word-rise:nth-of-type(6) span { transition-delay: .40s; }
+
+  /* Scroll progress */
+  .progress {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: var(--ink); width: 0%;
+    z-index: 100; transition: width .12s linear;
+  }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav" style="border-width: 0px 0px 10px; margin: 20px 0px 0px; height: 60.9091px; border-color: rgba(255, 155, 0, 0); padding: 5px 0px 20px">
+  <div class="wrap nav-inner">
+    <a class="logo" href="#" aria-label="Gilles Bouw">
+      <img src="images/gilles-bouw-logo.png" alt="Gilles Bouw" style="width: 240px; height: auto" />
+    </a>
+    <nav class="nav-links">
+      <a href="#diensten">Diensten</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#proces">Werkwijze</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-offerte" href="#contact"><span class="beam-spin" aria-hidden="true"></span><span class="beam-fill" aria-hidden="true"></span><span>Offerte aanvragen</span> <span class="arr">→</span></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="padding: 0px; height: 800px">
+  <div class="hero-watermark" aria-hidden="true">
+    <svg viewBox="0 0 540 380" preserveAspectRatio="xMidYMid meet">
+      <line x1="20" y1="320" x2="520" y2="320"/>
+      <path class="d1" d="M80 200 L270 80 L460 200"/>
+      <line class="d2" x1="110" y1="200" x2="110" y2="320"/>
+      <line class="d2" x1="430" y1="200" x2="430" y2="320"/>
+      <line class="d3" x1="110" y1="320" x2="430" y2="320"/>
+      <line class="d3" x1="110" y1="200" x2="430" y2="200"/>
+      <rect class="d4" x="240" y="235" width="60" height="85"/>
+      <line class="d4" x1="270" y1="235" x2="270" y2="320"/>
+      <rect class="d5" x="140" y="225" width="60" height="55"/>
+      <line class="d5" x1="170" y1="225" x2="170" y2="280"/>
+      <line class="d5" x1="140" y1="252" x2="200" y2="252"/>
+      <rect class="d5" x="340" y="225" width="60" height="55"/>
+      <line class="d5" x1="370" y1="225" x2="370" y2="280"/>
+      <line class="d5" x1="340" y1="252" x2="400" y2="252"/>
+      <rect class="d6" x="360" y="110" width="24" height="40"/>
+    </svg>
+  </div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Verbouwing & renovatie · sinds 2008</div>
+      <h1>
+        <span class="word-rise"><span>Michiel</span></span>
+        <span class="word-rise"><span>verbouwt</span></span>
+        <span class="word-rise"><span>jouw</span></span>
+        <span class="word-rise"><span class="accent">huis<span class="underline"></span></span></span>
+        <span class="word-rise"><span class="serif-it">met</span></span>
+        <span class="word-rise"><span>zorg.</span></span>
+      </h1>
+      <p class="hero-lede reveal">
+        Van strakke nieuwe wand tot een complete woonkamer-renovatie.
+        Eén vakman, eerlijke prijzen, en je huis weer netjes opgeleverd.
+      </p>
+      <div class="hero-ctas reveal">
+        <a class="btn btn-offerte" href="#contact"><span class="beam-spin" aria-hidden="true"></span><span class="beam-fill" aria-hidden="true"></span><span>Vraag een offerte</span> <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#projecten">Bekijk projecten</a>
+      </div>
+      <div class="hero-meta reveal-stagger">
+        <div class="stat">
+          <div class="stat-num">20+ <span class="serif-it" style="font-size:.6em;color:var(--ink-soft)">jaar</span></div>
+          <div class="stat-label">Ervaring</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">240+</div>
+          <div class="stat-label">Klussen geklaard</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">4,9<span style="font-size:.55em;color:var(--ink-soft)">/5</span></div>
+          <div class="stat-label">Klantbeoordeling</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-art reveal">
+      <img class="hero-img" src="images/hero-klusser.png" alt="Vakman aan het werk: muur openhakken voor renovatie" />
+      <div class="hero-tint"></div>
+      <div class="hero-grain"></div>
+      <div class="hero-ticks"></div>
+      <div class="scene-tag"><span class="live"></span> Aan het klussen</div>
+      <div class="hero-rollover">
+        <div>
+          <div class="ro-cat">Project in uitvoering</div>
+          <div class="ro-title">Doorbraak in een Utrechtse woonkamer</div>
+        </div>
+        <div class="ro-arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track" id="marquee">
+    <!-- duplicated for seamless loop, generated in JS -->
+  </div>
+</div>
+
+<!-- DIENSTEN -->
+<section id="diensten">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="left">
+        <div class="section-num">01 — Diensten</div>
+        <h2>Wat Michiel <span class="serif-it">het liefst</span> doet.</h2>
+      </div>
+      <div class="right">
+        Gespecialiseerd in verbouwing en renovatie. Geen klus te groot,
+        geen detail te klein. Alles met één aanspreekpunt: Michiel zelf.
+      </div>
+    </div>
+
+    <div class="dim-chain" aria-hidden="true">
+      <div class="dim-seg"><span>01 · VERBOUWING</span></div>
+      <div class="dim-seg"><span>02 · RENOVATIE</span></div>
+      <div class="dim-seg"><span>03 · UITBOUW</span></div>
+      <div class="scan-dot"></div>
+    </div>
+
+    <div class="services reveal-stagger">
+      <article class="service">
+        <svg class="ico" viewBox="0 0 64 64" fill="none">
+          <rect x="6" y="34" width="52" height="22" stroke="#14213d" stroke-width="1.6"/>
+          <path d="M6 34 L32 14 L58 34" stroke="#14213d" stroke-width="1.6"/>
+          <rect x="26" y="40" width="12" height="16" fill="#14213d"/>
+          <rect x="14" y="40" width="8" height="8" stroke="#14213d" stroke-width="1.4"/>
+          <rect x="42" y="40" width="8" height="8" stroke="#14213d" stroke-width="1.4"/>
+        </svg>
+        <h3>Complete verbouwing</h3>
+        <p>Van wand verplaatsen tot het hele souterrain ombouwen. Eén planning, één team, één opdrachtgever.</p>
+        <ul>
+          <li>Constructieve aanpassingen</li>
+          <li>Indelingen wijzigen</li>
+          <li>Vloeren & plafonds</li>
+          <li>Afwerking sleutelklaar</li>
+        </ul>
+      </article>
+
+      <article class="service">
+        <svg class="ico" viewBox="0 0 64 64" fill="none">
+          <rect x="10" y="10" width="44" height="44" stroke="#14213d" stroke-width="1.6"/>
+          <path d="M10 22 L54 22" stroke="#14213d" stroke-width="1.6"/>
+          <path d="M22 22 L22 54" stroke="#14213d" stroke-width="1.6"/>
+          <rect x="28" y="28" width="10" height="10" fill="#14213d"/>
+          <rect x="42" y="40" width="8" height="10" stroke="#14213d" stroke-width="1.4"/>
+        </svg>
+        <h3>Woonkamer renovatie</h3>
+        <p>Een nieuwe huiskamer in 2 à 3 weken. Stuc, schilderwerk, vloer en elektra — opgeleverd schoongemaakt.</p>
+        <ul>
+          <li>Stucwerk & schilderwerk</li>
+          <li>Houten en gietvloeren</li>
+          <li>Plafondafwerking</li>
+          <li>Verlichting & wandcontacten</li>
+        </ul>
+      </article>
+
+      <article class="service">
+        <svg class="ico" viewBox="0 0 64 64" fill="none">
+          <path d="M10 50 L32 14 L54 50 Z" stroke="#14213d" stroke-width="1.6"/>
+          <path d="M22 50 L22 38 L42 38 L42 50" stroke="#14213d" stroke-width="1.6"/>
+          <circle cx="32" cy="28" r="3" fill="#14213d"/>
+          <path d="M32 31 L32 38" stroke="#14213d" stroke-width="1.6"/>
+        </svg>
+        <h3>Uitbouw & dakkapel</h3>
+        <p>Meer ruimte zonder verhuizen. Van vergunningsaanvraag tot oplevering — Michiel regelt het allemaal.</p>
+        <ul>
+          <li>Achteruitbouw</li>
+          <li>Dakkapel op maat</li>
+          <li>Vergunning & tekeningen</li>
+          <li>Isolatie & ventilatie</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="dim-total" aria-hidden="true">
+      <div class="line"></div>
+      <span class="label">4.600 mm</span>
+      <div class="scan-dot"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTEN -->
+<section id="projecten" style="background: var(--paper-2);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="left">
+        <div class="section-num">02 — Projecten</div>
+        <h2>Recente <span class="serif-it">huiskamers</span> onder handen.</h2>
+      </div>
+      <div class="right">
+        Elke woning is anders. Een paar projecten waar we met plezier
+        op terugkijken — en die de bewoners weer ademruimte gaven.
+      </div>
+    </div>
+
+    <div class="projects reveal-stagger">
+      <div class="proj-coords" aria-hidden="true"><span class="vals" id="projCoords">x: 0234 · y: 0186</span></div>
+      <div class="proj-crosshair" aria-hidden="true"><span></span></div>
+      <!-- Project 1: tall, woonkamer -->
+      <article class="project tall">
+        <div class="corner tl"></div><div class="corner tr"></div>
+        <div class="corner bl"></div><div class="corner br"></div>
+        <img class="project-photo" src="images/project-woonkamer.webp" alt="Gerenoveerde woonkamer met visgraat vloer en haard" />
+        <div class="project-shade"></div>
+        <div class="project-overlay">
+          <div class="cat">Woonkamer · Woerden</div>
+          <h3>Knusse stadswoning, opnieuw gestuct</h3>
+          <p>Wand verwijderd, hele kamer gestuct en een nieuwe visgraat vloer rondom de oude haard.</p>
+          <div class="meta"><span>3 weken</span><span>72 m²</span><span>2024</span></div>
+        </div>
+      </article>
+
+      <!-- Project 2: keuken -->
+      <article class="project">
+        <div class="corner tl"></div><div class="corner tr"></div>
+        <div class="corner bl"></div><div class="corner br"></div>
+        <img class="project-photo" src="images/project-keuken.webp" alt="Maatwerk keuken in eikenhout en mat zwart" style="object-position: 40% center" />
+        <div class="project-shade"></div>
+        <div class="project-overlay">
+          <div class="cat">Verbouwing · Utrecht</div>
+          <h3>Open keuken doorgebroken</h3>
+          <p>Draagmuur weggehaald, maatwerk keuken in eiken en zwart staal geplaatst.</p>
+          <div class="meta"><span>5 weken</span><span>2024</span></div>
+        </div>
+      </article>
+
+      <!-- Project 3: vloer detail -->
+      <article class="project">
+        <div class="corner tl"></div><div class="corner tr"></div>
+        <div class="corner bl"></div><div class="corner br"></div>
+        <img class="project-photo" src="images/project-vloer.webp" alt="Nieuwe houten vloer met zwevende vensterbank" />
+        <div class="project-shade"></div>
+        <div class="project-overlay">
+          <div class="cat">Renovatie · Zeist</div>
+          <h3>Nieuwe vloer en maatwerk vensterbank</h3>
+          <p>Hele vloer vervangen en een zwevende vensterbank op maat gemaakt en geplaatst.</p>
+          <div class="meta"><span>4 weken</span><span>2025</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BIG QUOTE -->
+<section class="quote-block" style="height: 450px; padding: 50px 0px">
+  <div class="wrap reveal">
+    <div class="quote-check" aria-hidden="true">
+      <svg viewBox="0 0 36 36">
+        <path d="M8 19 L15 25 L28 11"/>
+      </svg>
+    </div>
+    <p class="big-quote">
+      <span class="serif-it">"</span>Michiel denkt mee, werkt netjes en levert af zoals afgesproken.
+      Onze huiskamer voelt eindelijk <span class="serif-it">af</span>.<span class="serif-it">"</span>
+    </p>
+    <div class="quote-attr">
+      <div class="av"></div>
+      <div style="flex:1">
+        <div style="color:var(--ink); font-weight:500;">Marieke & Joris</div>
+        <div>Woning in Woerden · maart 2025</div>
+      </div>
+      <div class="quote-stars" aria-hidden="true">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCES -->
+<section id="proces" class="proces-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="left">
+        <div class="section-num">03 — Werkwijze</div>
+        <h2>Vier stappen, <span class="serif-it">geen verrassingen</span>.</h2>
+      </div>
+      <div class="right">
+        Heldere communicatie. Eerlijke prijs vooraf. En een huis dat
+        bij oplevering schoon en op orde is.
+      </div>
+    </div>
+
+    <div class="proces-list reveal-stagger">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Kennismaking</h3>
+        <p>Michiel komt langs, kijkt rond, luistert en stelt vragen. Geen verkooppraatje, wel een goed gesprek.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Offerte</h3>
+        <p>Binnen 5 dagen een vaste prijs op papier, met planning, materialen en onderbouwde keuzes.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Uitvoering</h3>
+        <p>Eén vast aanspreekpunt en een dagelijkse update via WhatsApp. We werken op afspraak en netjes.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h3>Oplevering</h3>
+        <p>Een opleverlijst, schoongemaakt huis en twee jaar garantie op het uitgevoerde werk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="contact-stars" aria-hidden="true">
+    <span class="star dot" style="top:8%;left:6%"></span>
+    <span class="star cross" style="top:18%;left:22%"></span>
+    <span class="star dot" style="top:14%;left:48%"></span>
+    <span class="star cross" style="top:6%;left:72%"></span>
+    <span class="star dot" style="top:26%;left:88%"></span>
+    <span class="star cross" style="top:36%;left:4%"></span>
+    <span class="star dot" style="top:48%;left:32%"></span>
+    <span class="star cross" style="top:54%;left:60%"></span>
+    <span class="star dot" style="top:62%;left:90%"></span>
+    <span class="star cross" style="top:74%;left:14%"></span>
+    <span class="star dot" style="top:82%;left:42%"></span>
+    <span class="star cross" style="top:88%;left:78%"></span>
+    <span class="star dot" style="top:92%;left:96%"></span>
+    <span class="star cross" style="top:94%;left:24%"></span>
+  </div>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="section-num">04 — Contact</div>
+        <h2>Bel Michiel of <span class="serif-it">stuur</span> een bericht.</h2>
+        <p style="color:var(--ink-soft); max-width: 440px; font-size: 18px;">
+          Binnen één werkdag reactie. Voor een offerte komen we eerst gewoon
+          langs — zonder kosten of verplichtingen.
+        </p>
+
+        <div class="contact-info">
+          <div class="ci-row">
+            <span class="ci-label">Bellen</span>
+            <a class="ci-value" href="tel:+31612345678">06 - 12 34 56 78</a>
+          </div>
+          <div class="ci-row">
+            <span class="ci-label">Mailen</span>
+            <a class="ci-value" href="mailto:info@voorbeeld.nl">info@voorbeeld.nl</a>
+          </div>
+          <div class="ci-row">
+            <span class="ci-label">Werkgebied</span>
+            <span class="ci-value">Woerden · Utrecht · Zeist</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="form reveal" onsubmit="event.preventDefault(); thanks(this);">
+        <div class="form-row two">
+          <div class="field">
+            <label for="naam">Je naam</label>
+            <input id="naam" type="text" placeholder="Voor- en achternaam" required>
+          </div>
+          <div class="field">
+            <label for="tel">Telefoon</label>
+            <input id="tel" type="tel" placeholder="06 ..." required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label>Wat heb je in gedachten?</label>
+            <div class="chips" id="chips">
+              <button type="button" class="chip">Woonkamer renovatie</button>
+              <button type="button" class="chip">Wand doorbreken</button>
+              <button type="button" class="chip">Vloer & plafond</button>
+              <button type="button" class="chip">Schilderwerk</button>
+              <button type="button" class="chip">Anders</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="bericht">Korte omschrijving</label>
+            <textarea id="bericht" placeholder="Vertel kort over je woning en wat je in gedachten hebt..."></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <span class="small">We reageren binnen één werkdag.</span>
+          <button class="btn" type="submit">Verstuur <span class="arr">→</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="foot-logo-card">
+          <img src="images/gilles-bouw-logo.png" alt="Gilles Bouw" />
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Diensten</h4>
+        <a href="#">Complete verbouwing</a>
+        <a href="#">Woonkamer renovatie</a>
+        <a href="#">Uitbouw & dakkapel</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="tel:+31612345678">06 - 12 34 56 78</a>
+        <a href="mailto:info@voorbeeld.nl">info@voorbeeld.nl</a>
+        <p>Regio Woerden, Utrecht & Zeist</p>
+      </div>
+      <div class="foot-col">
+        <h4>Michiel</h4>
+        <p>KvK 12345678</p>
+        <p>BTW NL123456789B01</p>
+        <p>VCA gecertificeerd</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 Gilles Bouw</div>
+      <div>Gebouwd met vakmanschap.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Marquee
+  const marqueeItems = [
+    "Badkamer", "Toilet", "Keuken", "Aanbouw", "Dakkapel", "Zolder",
+    "Kozijn", "Schilderwerk", "Doorbraak", "Uitbouw", "Dakraam", "Kast", "Trap", "Stucen"
+  ];
+  const m = document.getElementById('marquee');
+  const html = marqueeItems.map(t =>
+    `<div class="marquee-item">${t}<span class="sep"></span></div>`
+  ).join('');
+  m.innerHTML = html + html + html;
+
+  // Nav stuck
+  const nav = document.getElementById('nav');
+  const progress = document.getElementById('progress');
+  function onScroll() {
+    nav.classList.toggle('is-stuck', window.scrollY > 12);
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    progress.style.width = Math.min(100, pct) + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal, .reveal-stagger, .word-rise').forEach(el => io.observe(el));
+
+  // measuring animation observer for dim chain + total + services top line
+  const measureIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in-view');
+        measureIO.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('.dim-chain, .dim-total, .services, .projects, .quote-block').forEach(el => measureIO.observe(el));
+
+  // Random crosshair hopping across projects
+  const projCoords = document.getElementById('projCoords');
+  const crosshair = document.querySelector('.proj-crosshair');
+  function hopCrosshair() {
+    if (!crosshair) return;
+    const top = 12 + Math.random() * 46;   // margin from edges
+    const left = 14 + Math.random() * 68;
+    crosshair.style.top = top.toFixed(1) + '%';
+    crosshair.style.left = left.toFixed(1) + '%';
+    const x = Math.floor(left * 12 + 100);
+    const y = Math.floor(top * 6 + 80);
+    if (projCoords) {
+      projCoords.textContent = `x: ${String(x).padStart(4,'0')} · y: ${String(y).padStart(4,'0')}`;
+    }
+  }
+  setInterval(hopCrosshair, 4000);
+  setTimeout(hopCrosshair, 600);
+
+  // Word-rise: trigger immediately on load (hero)
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.hero .word-rise').forEach(el => el.classList.add('in'));
+    document.querySelectorAll('.hero .reveal, .hero .reveal-stagger').forEach(el => el.classList.add('in'));
+  });
+
+  // Chips
+  document.querySelectorAll('#chips .chip').forEach(c => {
+    c.addEventListener('click', () => c.classList.toggle('active'));
+  });
+
+  // Form thanks
+  function thanks(form) {
+    form.innerHTML = '<div style="padding:20px 0; text-align:center;"><div style="font-family:Bricolage Grotesque,serif; font-size:32px; margin-bottom:12px;">Bedankt!</div><div style="color:var(--ink-soft);">Michiel neemt binnen één werkdag contact op.</div></div>';
+  }
+
+  // Paint roller fill animation (synced with roller motion)
+  const paintFill = document.getElementById('paint-fill');
+  let lastTime = 0;
+  function tick(t) {
+    if (!lastTime) lastTime = t;
+    const elapsed = (t / 1000) % 6;
+    const h = Math.min(280, elapsed * 50);
+    if (paintFill) {
+      paintFill.setAttribute('y', 80 + (280 - h));
+      paintFill.setAttribute('height', h);
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+
+  // Subtle parallax on hero art
+  const heroArt = document.querySelector('.hero-art');
+  if (heroArt) {
+    document.addEventListener('mousemove', (e) => {
+      const x = (e.clientX / window.innerWidth - 0.5) * 8;
+      const y = (e.clientY / window.innerHeight - 0.5) * 8;
+      heroArt.style.transform = `translate(${x}px, ${y}px)`;
+    });
+  }
+</script>
+</body>
+</html>

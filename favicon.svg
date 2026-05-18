@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#14213d"/>
+  <text x="32" y="44"
+        font-family="Bricolage Grotesque, Georgia, serif"
+        font-size="32"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#f3ead3"
+        letter-spacing="-1">GB</text>
+  <circle cx="50" cy="14" r="3" fill="#f59417"/>
+</svg>
